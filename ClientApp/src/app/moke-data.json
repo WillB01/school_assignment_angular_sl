@@ -1,0 +1,77 @@
+{
+  "StatusCode": 0,
+  "Message": null,
+  "ExecutionTime": 0,
+  "ResponseData": [
+      {
+          "Name": "Slussen (Stockholm)",
+          "SiteId": "9192",
+          "Type": "Station",
+          "X": "18071860",
+          "Y": "59320284"
+      },
+      {
+          "Name": "Slumnäsvägen (Tyresö)",
+          "SiteId": "8056",
+          "Type": "Station",
+          "X": "18273946",
+          "Y": "59248604"
+      },
+      {
+          "Name": "Sluts hage (Ekerö)",
+          "SiteId": "3151",
+          "Type": "Station",
+          "X": "17557479",
+          "Y": "59421556"
+      },
+      {
+          "Name": "Stora mossen (Stockholm)",
+          "SiteId": "9111",
+          "Type": "Station",
+          "X": "17967423",
+          "Y": "59334783"
+      },
+      {
+          "Name": "Bagarmossen (Stockholm)",
+          "SiteId": "9141",
+          "Type": "Station",
+          "X": "18133508",
+          "Y": "59276596"
+      },
+      {
+          "Name": "Hökmossen (Stockholm)",
+          "SiteId": "1630",
+          "Type": "Station",
+          "X": "17991712",
+          "Y": "59290215"
+      },
+      {
+          "Name": "Hökmossens gård (Stockholm)",
+          "SiteId": "1787",
+          "Type": "Station",
+          "X": "17993123",
+          "Y": "59288974"
+      },
+      {
+          "Name": "Terrassen (Stockholm)",
+          "SiteId": "1535",
+          "Type": "Station",
+          "X": "18028667",
+          "Y": "59290359"
+      },
+      {
+          "Name": "Björkmossen (Södertälje)",
+          "SiteId": "7937",
+          "Type": "Station",
+          "X": "17646616",
+          "Y": "59219640"
+      },
+      {
+          "Name": "Blekholmsterrassen (Stockholm)",
+          "SiteId": "1006",
+          "Type": "Station",
+          "X": "18052272",
+          "Y": "59331080"
+      }
+  ]
+}

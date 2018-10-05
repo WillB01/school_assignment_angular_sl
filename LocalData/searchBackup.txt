@@ -1,0 +1,67 @@
+{
+    "StopLocation": [
+        {
+            "id": "740020101",
+            "extId": "740020101",
+            "name": "Slussen T-bana (Stockholm kn)",
+            "lon": 18.072327,
+            "lat": 59.319493,
+            "weight": 21053,
+            "products": 160
+        },
+        {
+            "id": "740015832",
+            "extId": "740015832",
+            "name": "Slussen (Orust kn)",
+            "lon": 11.760138,
+            "lat": 58.259449,
+            "weight": 98,
+            "products": 128
+        },
+        {
+            "id": "740060641",
+            "extId": "740060641",
+            "name": "Slussen östra (Orust kn)",
+            "lon": 11.768848,
+            "lat": 58.258289,
+            "weight": 98,
+            "products": 128
+        },
+        {
+            "id": "740047623",
+            "extId": "740047623",
+            "name": "Slussen (Falun kn)",
+            "lon": 15.652251,
+            "lat": 60.595871,
+            "weight": 21,
+            "products": 512
+        },
+        {
+            "id": "740034486",
+            "extId": "740034486",
+            "name": "Stockholm Slussen kajen",
+            "lon": 18.075491,
+            "lat": 59.322432,
+            "weight": 75,
+            "products": 256
+        },
+        {
+            "id": "740015728",
+            "extId": "740015728",
+            "name": "Malmö Slussen",
+            "lon": 13.016452,
+            "lat": 55.607469,
+            "weight": 444,
+            "products": 128
+        },
+        {
+            "id": "740001509",
+            "extId": "740001509",
+            "name": "Upperud slussen (Mellerud kn)",
+            "lon": 12.436387,
+            "lat": 58.814002,
+            "weight": 21,
+            "products": 128
+        }
+    ]
+}

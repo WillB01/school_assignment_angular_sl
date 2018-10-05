@@ -1,0 +1,18 @@
+
+    <input
+    [(ngModel)]="userSearch"
+    name="userSearch"
+    (keyup)="onKey($event)"
+    (focus)="onFocus($event)"
+    placeholder="search" id="input-search">
+  <!-- <a href="#"
+    (click)="searchUserSearch(userSearch);">search</a> -->
+    <button  (click)="searchUserSearch(userSearch)" ng-model="button" [disabled]="isClicked">search</button>
+
+    <button (click)="clear()" [disabled]="isClearNotActive">clear</button>
+
+    <app-stations *ngIf="show"></app-stations>
+    <app-depature *ngIf="show"></app-depature>
+
+
+

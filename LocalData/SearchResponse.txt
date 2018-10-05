@@ -1,0 +1,77 @@
+{
+    "StatusCode": 0,
+    "Message": null,
+    "ExecutionTime": 0,
+    "ResponseData": [
+        {
+            "Name": "Sundbyberg (Sundbyberg)",
+            "SiteId": "9325",
+            "Type": "Station",
+            "X": "17971495",
+            "Y": "59360870"
+        },
+        {
+            "Name": "Sundbybergs centrum (Sundbyberg)",
+            "SiteId": "9325",
+            "Type": "Station",
+            "X": "17971495",
+            "Y": "59360870"
+        },
+        {
+            "Name": "Sundbybergs station (Sundbyberg)",
+            "SiteId": "9325",
+            "Type": "Station",
+            "X": "17971495",
+            "Y": "59360870"
+        },
+        {
+            "Name": "Sundbybergs torg (Sundbyberg)",
+            "SiteId": "9325",
+            "Type": "Station",
+            "X": "17971495",
+            "Y": "59360870"
+        },
+        {
+            "Name": "Sundbybergs skola (Sundbyberg)",
+            "SiteId": "3512",
+            "Type": "Station",
+            "X": "17964421",
+            "Y": "59365122"
+        },
+        {
+            "Name": "Sundbybergs idrottsplats (Sundbyberg)",
+            "SiteId": "3511",
+            "Type": "Station",
+            "X": "17968673",
+            "Y": "59366722"
+        },
+        {
+            "Name": "Sundbybergs kyrka (Sundbyberg)",
+            "SiteId": "9917",
+            "Type": "Station",
+            "X": "17971783",
+            "Y": "59363818"
+        },
+        {
+            "Name": "Sundbypark (Sundbyberg)",
+            "SiteId": "3540",
+            "Type": "Station",
+            "X": "17971396",
+            "Y": "59380350"
+        },
+        {
+            "Name": "Sundbypark östra (Sundbyberg)",
+            "SiteId": "3540",
+            "Type": "Station",
+            "X": "17971396",
+            "Y": "59380350"
+        },
+        {
+            "Name": "Sundbypark södra (Sundbyberg)",
+            "SiteId": "3540",
+            "Type": "Station",
+            "X": "17971396",
+            "Y": "59380350"
+        }
+    ]
+}

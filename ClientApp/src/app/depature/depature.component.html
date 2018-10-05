@@ -1,0 +1,56 @@
+<fieldset  *ngIf="depatures">
+    <div id="checkbox-container">
+
+        <input type="checkbox" id="checkbox-tbanna" (change)="toggleFilter($event)" name="tbana"/>
+        <label for="checkbox-tbanna" class="checkbox-tbanna-class checkbox-all">
+            <i class="far fa-square"></i><span class="checkboxText">tunnelbanna</span>
+        </label>
+        <input type="checkbox" id="checkbox-buss"  (change)="toggleFilter($event)"  name="buss" />
+        <label for="checkbox-buss" class="checkbox-buss-class checkbox-all">
+            <i id="fa-square-buss" class="far fa-square"></i><span class="checkboxText">buss</span>
+        </label>
+        <input type="checkbox" id="checkbox-pendel" (change)="toggleFilter($event)" name="pendel"/>
+        <label for="checkbox-pendel" class="checkbox-pendel-class checkbox-all">
+            <i class="far fa-square"></i><span class="checkboxText">pendel</span>
+        </label>
+
+    </div>
+</fieldset>
+<div *ngIf="showOriginal">
+    <ul *ngIf="depatures">
+        <li *ngFor="let item of depatures">
+          <a href="#" (click)="toggle($event)" [class]="item.stopid"  class="departure-btn " href="#">
+            {{item.time}} {{item.name}} {{item.direction}}
+          </a>
+
+            <div [ngClass]="{'hide':true }">
+                <ul class="route-stops-container">
+                    <li *ngFor="let element of item.Stops.Stop">
+                      <p>{{element.name}}</p>
+
+                    </li>
+                  </ul>
+            </div>
+
+
+        </li>
+
+      </ul>
+</div>
+<div>
+  <ul *ngIf="showFiltered">
+    <li *ngFor="let item of concatArr">
+        <a href="#" (click)="toggle($event)" [class]="item.stopid"  class="departure-btn " href="#">{{item.time}} {{item.name}} {{item.direction}}
+      </a>
+      <div [ngClass]="{'hide':true }">
+        <ul class="route-stops-container">
+          <li *ngFor="let element of item.stops.Stop">
+            <p>{{element.name}}</p>
+          </li>
+        </ul>
+      </div>
+
+    </li>
+  </ul>
+</div>
+<!-- *ngIf="show"  -->

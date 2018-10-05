@@ -1,0 +1,6 @@
+<div>
+    <ul *ngIf="stations">
+        <li *ngFor="let item of stations">
+          <a href="#" (click)="getId(item.id)">{{item.name}}</a></li>
+      </ul>
+</div>

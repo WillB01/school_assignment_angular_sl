@@ -1,0 +1,12 @@
+#route-stops-container {
+  background: rgb(212, 255, 202);
+}
+.hide {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
